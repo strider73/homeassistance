@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# But not these specific files
+!.gitignore
+!README.md
+!compose.yml
+!config/
+!config/configuration.yaml
+
+# Inside config, ignore everything else
+config/*
+!config/configuration.yaml

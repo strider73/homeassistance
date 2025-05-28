@@ -1,0 +1,7 @@
+http:
+  use_x_forwarded_for: true
+  trusted_proxies:
+    - 192.168.1.116  # Your NGINX Proxy Manager IP
+    - 127.0.0.1      # Always safe to include localhost
+
+mobile_app:
